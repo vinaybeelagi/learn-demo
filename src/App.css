@@ -18,27 +18,28 @@
   justify-content: center;
 }
 
-.articles{
+.articles {
   display: flex;
-  /* justify-content: space-around; */
-  width: 80%;
-  border: black 1px solid;
-  flex: 1;
-  background-color: aliceblue;
- 
-
+  justify-content: space-around;
 }
-
-.private-art{
-  border: black 1px solid;
-  width: 50%;
-  text-align: center;
-
-}
-.public-art {
-  background-color: aliceblue;
-  width: 50%;
-  text-align: center;
-
-
-}
+  .main {
+    display: flex;
+  }
+  
+  .nav {
+    width: 20%;
+    background-color: #b4bed1;
+  }
+    
+  .content {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    background-color: #7e94c1;
+    height: calc(100vh - 50px);
+  }
+  
+  .header {
+    height: 50px;
+    background-color: #4363a2;
+  }
